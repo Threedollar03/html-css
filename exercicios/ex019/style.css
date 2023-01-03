@@ -1,0 +1,43 @@
+@charset "UTF-8";
+
+/* em HTML, id = em CSS é #
+em HTML é, class = em CSS é .
+*/
+body {
+    background-image: linear-gradient(to right, rgb(108, 249, 249), rgb(31, 243, 243));
+    font-family: 'Courier New', Courier, monospace;
+}
+main {
+    background-color: white;
+    border-radius: 20px;
+    width: 900px;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 20px rgba(7, 165, 165, 0.375);
+
+}
+h1 {
+    color: rgb(15, 111, 195);
+}
+h1#principal {
+    color: rgba(116, 71, 158, 0.935);
+    text-align: center;
+    text-shadow: 1px 1px 2px rgba(88, 44, 129, 0.565);
+}
+h2{
+    color: rgb(43, 96, 78);
+
+}
+p{
+    text-align: justify;
+    text-indent: 20px;
+}
+.basico {
+    color: rgba(0, 0, 255, 0.649);
+    font-weight: bold;
+}
+.intermediario {
+    color: bisque;
+
+}
+/* podemos usar mais de uma classe, e também usar class e id, porém ID sobrepoe CLASS */
